@@ -1,0 +1,220 @@
+/*
+Theme Name: Purplesoft
+Theme URI: http://purplesoft.com.au/
+Author: Abdul
+Author URI: http://purplesoft.com.au/
+Description: Any design, any layout. No coding required. Purplesoft is the most customisable WordPress theme on the market up to date. Add the power of Visual Composer, purplesoft Post Types, Ultimate Addons, Slider Revolution, and WooCommerce to the mix, and you’ll get the ultimate web-site building toolkit! Theme is translation ready, compatible with WPML, SEO and mobile friendly (certified by Google).
+Version: 5.1.4
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://purplesoft.com.au
+License URI: License.txt
+Tags: multipurpose, responsive, retina ready, SEO ready, mobile friendly, iOS, material design, clean, minimal, business, corporate, portfolio, creative, photography, one page site, micro site
+Text Domain: purplesoft
+*/
+
+.blog .dt-format-gallery .dt-format-gallery-coll.full,
+.archive .dt-format-gallery .dt-format-gallery-coll.full,
+.search .dt-format-gallery .dt-format-gallery-coll.full
+{
+	display: none;
+}
+
+
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor {}
+
+
+
+
+
+
+
+
+
+
+.carousel-shortcode.carousel-shortcode-id-1 .owl-nav a.owl-prev {
+    top: 50%;
+    transform: translateY(calc(-50% + 0px));
+    left: -70px!important;
+}
+.carousel-shortcode.carousel-shortcode-id-1 .owl-nav a.owl-next {
+    top: 50%;
+    transform: translateY(calc(-50% + 0px));
+    right: -70px!important;
+}
+
+.info-c-full h3 {
+    margin: 0;
+    text-align: center;
+    color: purple!important;
+}
+
+.rs-background-video-layer.defaultvid.HasListener.rs-apiready {
+    left: -3px!important;
+}
+.main-nav > li:not(.wpml-ls-item) > a .menu-text {
+    color: #1b1919!important;
+}
+
+div#rev_slider_15_1{
+margin-top:-2px!important;
+}
+
+@media only screen and (max-width: 590px) {
+h2#slide-25-layer-3 {
+    margin-top: 41px!important;
+}
+
+div#slide-25-layer-37 {
+    margin-left: -200px!important;
+    margin-top: 149px!important;
+    width: 145px;
+}
+div#slide-25-layer-36 {
+    margin-left: -120px!important;
+    margin-top: 150px!important;
+}
+.but1{
+width: 70px;
+}
+div#slide-25-layer-38 {
+    width: 150px!important;
+    margin-left: -140%!important;
+    margin-top: 65%!important;
+    font-size: 14px!important;
+}
+div#slide-25-layer-39 {
+    width: 144px!important;
+    margin-left: -90%!Important;
+    margin-top: 68%!important;
+    font-size: 14px!important;
+}
+h2#slide-25-layer-2{
+font-size:55px!important;
+top:50px;
+}
+div#slide-25-layer-41 {
+    //left: -220px!important;
+    //top: -510px!important;
+}
+div#slide-25-layer-46 {
+    //left: -130px!important;
+    //top: -510px!important;
+}
+div#slide-25-layer-46 {
+    left: -133px!important;
+    //top: 150px;
+background-color:none!important;
+opacity:0.9!important;
+background-color: rgb(119, 62, 210)!important;
+display:none;
+}
+div#slide-25-layer-41 {
+    left: -215px!important;
+    background-color: none!important;
+    opacity: 0.9!important;
+    background-color: rgb(6, 6, 6)!important;
+    width: 281px;
+    text-align: center!important;
+    height: 47px;
+    border-radius: 14px;
+    top: 105px;
+}
+div#rev_slider_15_1_wrapper{
+//background: url(http://cdn.thestyleco.com.au/wp-content/themes/thestyleco2016/assets/images/home-rotate3.gif) repeat;
+opacity:0.9!important;
+height: 480px!important;
+}
+.-caption .tp-shape .tp-shapewrapper  .tp-resizeme{
+background-color: none!important;
+opacity:0.9!important;
+}
+#slide-25-layer-34{
+//background-color : transparent!important;
+//background: url(http://cdn.thestyleco.com.au/wp-content/themes/thestyleco2016/assets/images/home-rotate3.gif) repeat!important;
+-webkit-background-clip: text;
+background-size: cover;
+opacity:0.1!important;
+}
+div#slide-25-layer-52{
+top: -123px;
+left: -114px;
+}
+div#slide-25-layer-52 img{
+    //top: -150px;
+    //left: -130px;
+}
+div#slide-25-layer-53{
+top: -121px;
+left: -130px;
+}
+div#slide-25-layer-55 {
+    top: -100px;
+    left: -223px;
+display:block!important;
+}
+div#slide-25-layer-41 a{
+color:#000;
+text-decoration:none;
+font-size:30px;
+}
+div#slide-25-layer-46 a{
+color:#000;
+text-decoration:none;
+}
+}
+
+div#slide-25-layer-55{
+display:none;
+}
+.floating-mobile-menu-icon.admin-bar .dt-mobile-menu-icon.floating-btn{
+top:0px!important;
+}
+.floating-mobile-menu-icon .dt-mobile-menu-icon.floating-btn{
+background-color: rgb(14, 14, 14)!important;
+visibility: visible!important;
+height: 40px!important;
+opacity: 0.9!important;
+}
+div#slide-25-layer-41 a{
+color:#000;
+text-decoration:none;
+}
+div#slide-25-layer-46 a{
+color:#000;
+text-decoration:none;
+}
+#phantom{
+background: #ffffff!important;
+}
+.edit-link{
+display:none;
+}
+.menu-item-text{
+//color:#1b1a1a;
+}
+
+.ih-item.square{
+width: 600px!important;
+height: 400px!important;
+}
+@media only screen and (min-width: 600px) {
+div#slide-25-layer-52 {
+display:none;
+}
+div#slide-25-layer-53 {
+display:none;
+}
+}
+
+
+a.alignnone.rollover.this-ready{
+pointer-events: none;
+}
+.info-c-full i{
+color:purple;
+}
+.scroll-top{
+    background-color: rgb(30, 115, 190)!important;
+}
